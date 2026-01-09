@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #050461d3, #380126);
+    color: #eee;
+}
+
+/* HERO */
+.hero {
+    height: vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #2e0350, z#140168);
+}
+s
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.hero p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* CARDS */
+.card {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #1f1f1f;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #e100ff;
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: #333;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+}
+
+.cert-link {
+    color: #ffffffbd;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.cert-link:hover {
+    color: #e100ff;
+    text-decoration: underline;
+}
